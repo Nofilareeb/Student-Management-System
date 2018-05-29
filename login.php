@@ -22,13 +22,13 @@ if(isset($_SESSION['uid']))
 	<tr>
 
     <td>Username :</td>
-    <td><input type="text" name="uname" required></td>		
+    <td><input type="text" name="uname" placeholder="Enter username"  required></td>		
 
 	</tr>
 	<tr>
 
     <td>Password :</td>
-    <td><input type="Password" name="pass" required></td>		
+    <td><input type="Password" name="pass" placeholder="Enter password"  required></td>		
 
 	</tr>
 	<tr>
